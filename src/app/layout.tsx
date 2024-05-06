@@ -1,10 +1,19 @@
 import "@/globals.css";
 
+import { Montserrat } from "next/font/google";
+
 import { RootLayoutProps } from "@/types";
+
+import Header from "@/components/main-header";
+
+const montserrat = Montserrat({
+  weight: "200",
+  subsets: ["latin"],
+});
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
-    <html lang="en">
+    <html lang="en" className={montserrat.className}>
       <body>
         <div className="header-background">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -26,7 +35,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
             ></path>
           </svg>
         </div>
-
+        <Header />
         {children}
       </body>
     </html>
