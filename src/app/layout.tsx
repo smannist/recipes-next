@@ -1,5 +1,5 @@
 import "@/globals.css";
-import { montserrat } from "../fonts";
+import { montserrat } from "@/fonts";
 
 import { RootLayoutProps } from "@/types";
 
