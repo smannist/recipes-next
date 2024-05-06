@@ -1,7 +1,9 @@
 const Home = () => {
   return (
     <main>
-      <h1 className="text-slate-600">This is a test!</h1>
+      <div className="flex flex-col justify-center items-center h-screen">
+        <h1 className="mb-2">This is a test!</h1>
+      </div>
     </main>
   );
 };
