@@ -1,15 +1,9 @@
 import "@/globals.css";
-
-import { Montserrat } from "next/font/google";
+import { montserrat } from "../fonts";
 
 import { RootLayoutProps } from "@/types";
 
 import Header from "@/components/main-header/main-header";
-
-const montserrat = Montserrat({
-  weight: "200",
-  subsets: ["latin"],
-});
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
