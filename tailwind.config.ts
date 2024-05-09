@@ -16,6 +16,9 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-montserrat)"],
       },
+      colors: {
+        "custom-blue": "rgba(26,29,37,255)",
+      },
     },
   },
   plugins: [],

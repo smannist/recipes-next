@@ -13,7 +13,7 @@ const Header = () => {
         <header className="flex items-center z-20">
           <Link
             href="/"
-            className="flex items-center no-underline text-[#c07755] font-bold text-4xl uppercase tracking-wider"
+            className="flex items-center no-underline text-[#c7b2a8] font-bold text-4xl uppercase tracking-wider"
           >
             <Image
               className="w-20 h-20 drop-shadow-[0_0_12px_rgba(0,0,0,0.5)] mr-10 ml-20 mt-5"
@@ -21,11 +21,11 @@ const Header = () => {
               alt="Logo"
               priority
             />
-            Recipes
+            Tasties recipes
           </Link>
         </header>
         <nav className="z-20">
-          <ul className="list-none m-0 p-0 flex gap-6 text-xl text-[#c07755] font-bold">
+          <ul className="list-none m-0 p-0 flex gap-6 text-xl text-[#c7b2a8] font-bold">
             <li>
               <Link
                 href="/recipes"
